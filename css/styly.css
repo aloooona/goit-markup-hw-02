@@ -1,0 +1,164 @@
+:root {
+  /* middle title */
+  --title-color: #2e2f42;
+  /* main title */
+  --main-text-color: #ffffff;
+  /* paragraf */
+  --second-tex-color: #434455;
+  /* half logo and button */
+  --accent-color: #4d5ae5;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.section-subtitles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-tex-color);
+}
+
+/* ?----------HEADER----------- */
+
+.header-logo {
+  /* Web */
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--accent-color);
+}
+.header-logo span {
+  color: var(--title-color);
+}
+.header-menu-link {
+  /* Body Medium */
+
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-color);
+}
+
+/* ?----------ADDRESS----------- */
+
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-address-link {
+}
+
+/* ?----------HERO----------- */
+
+.hero {
+  background-color: #4d5ae5;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+
+/* ?----------BENEFITS----------- */
+
+.hero-title {
+}
+.hero-btn {
+}
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-subtitles {
+}
+.benefits-item-text {
+}
+/* ?-------WHAT ARE WE DOING-------- */
+.products {
+}
+.products-title {
+}
+.products-list {
+}
+.products-item {
+}
+
+/* ?-------OUR TEAM-------- */
+
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitles {
+}
+.team-text {
+}
+
+/* ?-------FOOTER-------- */
+
+.footer {
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--accent-color);
+}
+.footer-logo span {
+  color: var(--title-color);
+}
+
+.footer-text {
+}

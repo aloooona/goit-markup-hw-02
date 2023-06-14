@@ -12,6 +12,8 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
 a {
   text-decoration: none;
@@ -111,7 +113,7 @@ ul {
 }
 .benefits {
 }
-.benefits-list {
+.list {
 }
 .benefits-item {
 }
@@ -124,18 +126,22 @@ ul {
 }
 .products-title {
 }
-.products-list {
+.list {
 }
 .products-item {
 }
 
 /* ?-------OUR TEAM-------- */
 
+a {
+  background-color: #f4f4fd;
+}
 .team {
 }
 .team-title {
 }
-.team-list {
+.list {
+  background-color: #ffffff;
 }
 .team-item {
 }

@@ -21,7 +21,7 @@
   list-style-type: none;
 }
 
-body {
+.body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-text-color);
   color: var(--second-tex-color);
@@ -74,15 +74,19 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--second-tex-color);
+  line-height: 1.5;
 }
 
 /* ?----------HEADER----------- */
 
 .header {
   font-style: normal;
+  color: #2e2f42;
 }
-
-.header-logo {
+.list {
+  list-style: none;
+}
+.header-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -90,10 +94,25 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .header-logo-part {
   color: var(--title-color);
+}
+.header-menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-menu-item:hover,
+.header-menu-item:focus {
+  color: var(--color-ocean);
+}
+.link {
+  text-decoration: none;
 }
 .header-menu-link {
   font-family: "Roboto";
@@ -110,8 +129,9 @@ body {
 /* ?----------ADDRESS----------- */
 
 .header-address {
+  font-style: normal;
 }
-.header-address-list {
+.list {
 }
 .header-address-item:hover,
 .header-address-item:focus {

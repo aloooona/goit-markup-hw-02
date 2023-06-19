@@ -21,13 +21,13 @@
   list-style-type: none;
 }
 
-.body {
+.header {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-text-color);
   color: var(--second-tex-color);
 }
 
-.nav-link {
+.header-navigation {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -35,8 +35,8 @@
   color: var(--title-color);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.header-navigation:hover,
+.header-navigation:focus {
   color: var(--color-ocean);
 }
 .address {
@@ -96,7 +96,11 @@
   color: var(--accent-color);
   text-decoration: none;
 }
-
+.hero-btn {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
 .header-logo-part {
   color: var(--title-color);
 }

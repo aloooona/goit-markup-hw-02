@@ -7,20 +7,48 @@
   --second-tex-color: #434455;
   /* half logo and button */
   --accent-color: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-green: #31d0aa;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-dairy: #fcfcfc;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
 }
 
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: #434455;
+  background-color: var(--main-text-color);
+  color: var(--second-tex-color);
 }
-a {
-  text-decoration: none;
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
-ul {
-  list-style-type: none;
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-ocean);
 }
+.address {
+  font-style: normal;
+}
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-tex-color);
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -51,21 +79,19 @@ ul {
 /* ?----------HEADER----------- */
 
 .header-logo {
-  /* Web */
-
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--accent-color);
 }
-.header-logo span {
+
+.header-logo-part {
   color: var(--title-color);
 }
 .header-menu-link {
-  /* Body Medium */
-
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -73,21 +99,28 @@ ul {
   color: var(--title-color);
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--color-ocean);
+}
 /* ?----------ADDRESS----------- */
 
 .header-address {
 }
 .header-address-list {
 }
-.header-address-item {
+.header-address-item:hover,
+.header-address-item:focus {
+  color: var(--color-ocean);
 }
+
 .header-address-link {
 }
 
 /* ?----------HERO----------- */
 
 .hero {
-  background-color: #4d5ae5;
+  background-color: var(--accent-color);
 }
 .hero-title {
   font-weight: 700;
@@ -103,6 +136,10 @@ ul {
   line-height: 1.5;
   color: var(--main-text-color);
   cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn :focus {
+  background-color: var(--color-ocean);
 }
 
 /* ?----------BENEFITS----------- */
@@ -133,17 +170,15 @@ ul {
 
 /* ?-------OUR TEAM-------- */
 
-a {
-  background-color: #f4f4fd;
-}
 .team {
+  background-color: var(--color-cloud);
 }
 .team-title {
 }
 .list {
-  background-color: #ffffff;
 }
 .team-item {
+  background-color: var(--main-text-color);
 }
 .team-subtitles {
 }

@@ -82,7 +82,7 @@ body {
 
 .header {
   font-style: normal;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .list {
   list-style: none;
@@ -106,7 +106,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
   text-decoration: none;
 }
 .header-menu-item:hover,
@@ -117,7 +117,6 @@ body {
   text-decoration: none;
 }
 .header-menu-link {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -135,7 +134,8 @@ body {
 }
 
 .header-address-link {
-  text-decoration: none color #434455;
+  text-decoration: none color;
+   var(--second-tex-color);
 }
 /* ?----------ADDRESS----------- */
 
@@ -150,7 +150,7 @@ body {
 }
 
 .header-address-link {
-  color: #434455;
+  color: var(--second-tex-color);
 }
 
 /* ?----------HERO-----sek 1------ */
@@ -159,7 +159,6 @@ body {
   background-color: var(--title-color);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -173,10 +172,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
+  color: var(--main-text-color);
   cursor: pointer;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
+  background-color: var(--accent-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -229,11 +228,10 @@ body {
 /* ?-------FOOTER-------- */
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--title-color);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -242,13 +240,7 @@ body {
   text-transform: uppercase;
 }
 .footer-logo-part {
-  font-family: "Raleway" sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--color-cloud);
+color: var(--color-cloud);
 }
 
 .footer-text {
@@ -283,14 +275,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--accent-color);
+  background-color: var(--color-cloud);
   cursor: pointer;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
   color: var(--main-text-color);
 }
 .portfolio {
@@ -302,12 +294,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--second-tex-color);
 }
 .products-item {
 }

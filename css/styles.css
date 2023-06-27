@@ -17,8 +17,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--second-tex-color);
+  background-color: var(--main-text-color);
 }
 
 .link {
@@ -232,7 +232,7 @@ body {
   background-color: #2e2f42;
 }
 .footer-logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -287,8 +287,7 @@ body {
   background-color: #f4f4fd;
   cursor: pointer;
 }
-.link {
-}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
